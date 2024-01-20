@@ -22,6 +22,9 @@ informando se é preciso levar um guarda-chuva ou não dependendo do valor da va
 let nome = "Ed";
 let idade = 38;
 let estudando = true;
+console.log(typeof nome); // String
+console.log(typeof idade); // Number
+console.log(typeof estudando); // Boolean
 
 console.log(`Ola, meu nome e ${nome}, tenho ${idade} anos e minha situacao de estudando eh: ${estudando}!`);
 
@@ -30,6 +33,8 @@ let primeiroNome = "Ed";
 let segundoNome = " Gomes";
 nome2 = primeiroNome + segundoNome;
 console.log(`Ola, meu nome e ${nome2}!`);
+const nomeCompletoTemplate = `${primeiroNome} ${segundoNome}`;
+console.log(`Usando template strings: ${nomeCompletoTemplate}`);
 
 //Exercicio 3
 let numero = 10;
