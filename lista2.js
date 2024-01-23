@@ -24,3 +24,49 @@
     Exiba os resultados finais no console.
 
 */
+
+//Exercicio 1
+
+console.log('EXERCICIO 1');
+const frase = 'Olá Mundo';
+console.log(frase.length);
+console.log(frase.toUpperCase());
+
+//Exercicio 2
+console.log('EXERCICIO 2');
+let frase2 = null;
+let frase3;
+console.log(frase2);
+console.log(frase3);
+
+//Exercicio 3
+console.log('EXERCICIO 3');
+const numero = 42;
+const texto = ' é a resposta.';
+const booleano = true;
+
+const combinacao = `${numero} ${texto} É verdade? ${booleano}`;
+console.log(combinacao);
+
+//Exercicio 4
+console.log('EXERCICIO 4');
+const numero2 = 42;
+const texto2 = '10';
+
+const numeroConvertido = String(numero2);
+const textoConvertido = Number(texto2);
+
+console.log('Tipo de dado após conversão de número para string: ', typeof numeroConvertido);
+console.log('Tipo de dado após conversão de string para número: ', typeof textoConvertido);
+
+//Exercicio 5
+console.log('EXERCICIO 5');
+const texto3 = 'JavaScript é incrível!';
+
+const maiusculas = texto3.toUpperCase();
+const minusculas = texto3.toLowerCase();
+const parteDaString = texto3.slice(0, 10);
+
+console.log('Texto em maiúsculas:', maiusculas);
+console.log('Texto em minúsculas:', minusculas);
+console.log('Parte da string:', parteDaString);
