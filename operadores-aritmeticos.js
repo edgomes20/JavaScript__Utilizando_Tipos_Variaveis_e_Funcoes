@@ -12,3 +12,4 @@ if (media >= 7) {
 }
 
 console.log(`A media final eh ${media.toFixed(2)}`);
+
