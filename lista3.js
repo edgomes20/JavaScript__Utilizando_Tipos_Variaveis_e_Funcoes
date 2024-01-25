@@ -28,3 +28,47 @@
     pode realizar a compra.
 
 */
+
+//Exercicio 1
+let saldo = 1000;
+const saque = 50;
+const deposito = 500;
+const operacao = saldo - saque;
+
+console.log('Saldo:', saldo); 
+console.log('Saldo após saque:', operacao);onsole.log('Saldo insuficiente');
+
+//Exercicio 2
+let valor = 2;
+
+const resultado = valor % 2 === 0 ? 'Par' : 'Ímpar';
+
+console.log(resultado);
+
+//Exercicio 3
+const logado = true;
+const admin = false;
+
+const resultado3 = logado && admin;
+
+console.log('Administrador logado no sistema:', resultado3);
+
+//Exercicio 4
+const condicao1 = true;
+const condicao2 = false;
+
+const resultado4 = condicao1 || condicao2;
+
+console.log('Resultado do operador OR:', resultado4);
+
+//Exercicio 5
+const idadeMinima = 18;
+const idadeUsuario = 21;
+
+if (idadeUsuario >= idadeMinima) {
+    console.log('Você pode comprar o ingresso. Bom show!');
+} else {
+    console.log('Você não tem idade suficiente para comprar o ingresso.');
+}
+
+
