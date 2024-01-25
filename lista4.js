@@ -36,3 +36,39 @@ function resposta (idade) {
 }
 
 resposta(18);
+
+//Exercicio 3
+function verificaPalindromo(string) {
+    const stringInvertida = string.split('').reverse().join('');
+    return string.toLowerCase() === stringInvertida.toLowerCase();
+}
+
+console.log(verificaPalindromo("arara")); 
+console.log(verificaPalindromo("Frase")); 
+
+//Exercicio 4
+function encontraMaiorValor(num1, num2, num3) {
+    let maior = num1; 
+    if (num2 > maior) {
+        maior = num2;
+    }
+  
+    if (num3 > maior) {
+        maior = num3;
+    }
+  
+    return maior;
+  }
+  
+  console.log(encontraMaiorValor(12, 56, 32));
+  
+  //Exercicio 5
+  const calculaPotencia = (base, expoente) => {
+    return Math.pow(base, expoente);
+};
+
+const base = 2;
+const expoente = 3;
+
+const resultado = calculaPotencia(base, expoente);
+console.log(`O resultado de ${base} elevado a ${expoente} é: ${resultado}`); 
