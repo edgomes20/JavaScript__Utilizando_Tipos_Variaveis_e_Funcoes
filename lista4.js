@@ -22,3 +22,17 @@
     A função deve calcular a potência da base elevada ao expoente e 
     retornar o resultado.
 */
+
+//Exercicio 1
+function saudacao (nome) {
+    return console.log(`Olá ${nome}, seja bem-vinda!`);
+}
+
+saudacao('Ana');
+
+//Exercicio 2
+function resposta (idade) {
+    return idade >= 18 ? console.log(`Maior de Idade`) : console.log(`Menor de Idade`);
+}
+
+resposta(18);
